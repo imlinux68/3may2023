@@ -63,7 +63,7 @@ while :
 			2) worde ;;
 			3) python file.py ;;
 			4) break ;;
-			*) echo "nums from 1 to 2 ONLY" ; sleep 3 ;;
+			*) echo "nums from 1 to 4 ONLY" ; sleep 3 ;;
 		esac
 	done
 }
