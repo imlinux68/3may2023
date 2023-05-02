@@ -40,4 +40,56 @@ echo "Your sentences that contains words with e letters: "
 echo $sente | grep -oh "\w*e\w*"
 }
 
-worde
+
+
+function main () {
+while :
+	do
+		echo -e "\n\n\n***************************"
+		echo          "***************************"
+		echo          "MAKE YOUR CHOISE RIGHT NOW!"
+		echo          "***************************"
+		echo          "***************************"
+
+			 echo "1.  makedirs"
+			 echo "2.  Words with e"
+			 echo "3. python script"
+			 echo "4. Quit"
+
+		read -p "take your choice: " choice
+		case $choice in
+ 
+			1) makedirs ;;
+			2) worde ;;
+			3) python file.py ;;
+			4) break ;;
+			*) echo "nums from 1 to 2 ONLY" ; sleep 3 ;;
+		esac
+	done
+}
+main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
